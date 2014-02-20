@@ -1,0 +1,24 @@
+{
+  "name": "lepture-ed",
+  "description": "A wysiwyg editor without configuration.",
+  "version": "0.1.0",
+  "keywords": [
+    "editor",
+    "wysiwyg"
+  ],
+  "styles": [
+    "icon.css",
+    "index.css"
+  ],
+  "dependencies": {
+    "lepture-caret": "git://github.com/npmcomponent/lepture-caret.git",
+    "lepture-format": "git://github.com/npmcomponent/lepture-format.git",
+    "lepture-k-format": "git://github.com/npmcomponent/lepture-k-format.git",
+    "lepture-sanitize": "git://github.com/npmcomponent/lepture-sanitize.git",
+    "lepture-upload": "git://github.com/npmcomponent/lepture-upload.git",
+    "yields-k": "git://github.com/npmcomponent/yields-k.git",
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "component-classes": "git://github.com/npmcomponent/component-classes.git"
+  },
+  "license": "MIT"
+}

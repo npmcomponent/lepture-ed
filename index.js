@@ -1,9 +1,9 @@
-var format = require('format');
-var Caret = require('caret');
-var Upload = require('upload');
-var events = require('event');
-var classes = require('classes');
-var sanitize = require('sanitize');
+var format = require('lepture-format');
+var Caret = require('lepture-caret');
+var Upload = require('lepture-upload');
+var events = require('component-event');
+var classes = require('component-classes');
+var sanitize = require('lepture-sanitize');
 
 /**
  * The interface of Editor
@@ -30,7 +30,7 @@ function Editor(element, options) {
   this.caret = new Caret(content);
 
   // fix keyboard behavior
-  var k = require('k-format')(content, {caret: this.caret});
+  var k = require('lepture-k-format')(content, {caret: this.caret});
 
   setupToolbar(this);
 
